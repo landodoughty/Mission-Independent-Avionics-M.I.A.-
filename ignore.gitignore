@@ -1,0 +1,20 @@
+# ==========================================
+# Python Cache Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================================
+# KiCad Temporary and Backup Files
+# ==========================================
+# KiCad project backup files (created on save)
+*-bak
+*.bak
+
+# Autosave files (temporary recovery files)
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Lock files (temporary files when a file is open)
+*.lck
