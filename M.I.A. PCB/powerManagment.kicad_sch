@@ -3314,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 149.86) (xy 152.4 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0770e0c4-10e9-44e1-afee-083043c46e18")
+	)
+	(wire
+		(pts
 			(xy 82.55 149.86) (xy 82.55 152.4)
 		)
 		(stroke
@@ -3521,16 +3531,6 @@
 			(type default)
 		)
 		(uuid "3af62a64-521a-4ccc-aa8a-ef54043066b2")
-	)
-	(wire
-		(pts
-			(xy 152.4 152.4) (xy 146.05 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cce30e2-f8ee-4887-a8cf-274293e71092")
 	)
 	(wire
 		(pts
@@ -4514,7 +4514,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 149.86) (xy 152.4 149.86)
+			(xy 146.05 152.4) (xy 152.4 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7468,7 +7468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 134.62 132.08 0)
 			(effects
 				(font
@@ -9053,16 +9053,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 140.97 149.86 0)
+		(at 140.97 152.4 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "911de54e-1802-4d09-8b77-1e68fe61bc1d")
 		(property "Reference" "J2"
-			(at 141.605 144.78 0)
+			(at 141.605 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9070,7 +9070,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 141.605 147.32 0)
+			(at 141.605 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9078,7 +9078,7 @@
 			)
 		)
 		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
-			(at 140.97 149.86 0)
+			(at 140.97 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,7 +9087,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 149.86 0)
+			(at 140.97 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9096,7 +9096,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 140.97 149.86 0)
+			(at 140.97 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10174,7 +10174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1-2-3.81_1x02_P3.81mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 151.13 118.11 0)
 			(effects
 				(font
