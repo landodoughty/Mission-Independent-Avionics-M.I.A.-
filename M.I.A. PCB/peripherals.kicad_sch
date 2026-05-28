@@ -6300,7 +6300,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0ddb1c75-edb6-4676-9a70-5e73c25b5851")
 		(property "Reference" "#PWR0125"
 			(at 107.95 151.13 0)
@@ -6312,7 +6311,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 149.86 0)
+			(at 107.95 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6689,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "220d0166-9855-4797-b496-f7185728aeb2")
 		(property "Reference" "#PWR0122"
 			(at 59.69 185.42 0)
@@ -6702,7 +6700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 184.15 0)
+			(at 59.69 183.134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +6940,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26ca368f-29b6-4298-88da-87fb1b13bfcf")
 		(property "Reference" "#PWR0121"
 			(at 41.91 185.42 0)
@@ -6954,7 +6951,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 184.15 0)
+			(at 41.91 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7396,7 +7393,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36da77e2-ca1f-4901-9d68-15759ee31717")
 		(property "Reference" "#PWR0116"
 			(at 59.69 151.13 0)
@@ -7408,7 +7404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 149.86 0)
+			(at 59.69 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8102,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4ea97c01-9554-4f82-8730-1c896c479d8b")
 		(property "Reference" "#PWR0120"
 			(at 53.34 182.88 0)
@@ -8118,7 +8113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 181.61 0)
+			(at 53.34 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8172,7 +8167,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4eaee6e7-674f-4993-a9a1-ef3b170b58c4")
 		(property "Reference" "#PWR0124"
 			(at 119.38 148.59 0)
@@ -8184,7 +8178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 147.32 0)
+			(at 119.38 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +8350,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "50c74375-4658-43a3-97b8-04a8cc484b7e")
 		(property "Reference" "#PWR0130"
 			(at 125.73 185.42 0)
@@ -8368,7 +8361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 184.15 0)
+			(at 125.73 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +11372,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b9cca499-9f28-46ff-a618-ca8e3129bb97")
 		(property "Reference" "#PWR0129"
 			(at 107.95 185.42 0)
@@ -11391,7 +11383,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 184.15 0)
+			(at 108.204 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11445,7 +11437,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "baf43268-a4dc-4a61-8412-d7b0da9d1453")
 		(property "Reference" "#PWR0126"
 			(at 125.73 151.13 0)
@@ -11457,7 +11448,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 125.73 149.86 0)
+			(at 125.73 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12335,7 +12326,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d81620f0-a777-488d-867b-3d1fce67bf4f")
 		(property "Reference" "#PWR0128"
 			(at 119.38 182.88 0)
@@ -12347,7 +12337,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 181.61 0)
+			(at 119.38 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13460,7 +13450,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3f5b0d7-4caa-49ed-b51e-2c21bd20f85b")
 		(property "Reference" "#PWR0114"
 			(at 41.91 151.13 0)
@@ -13472,7 +13461,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 149.86 0)
+			(at 41.91 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13812,7 +13801,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff700d95-07e2-4138-9a30-d8717c2c27e0")
 		(property "Reference" "#PWR0115"
 			(at 53.34 148.59 0)
@@ -13824,7 +13812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 147.32 0)
+			(at 53.34 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
