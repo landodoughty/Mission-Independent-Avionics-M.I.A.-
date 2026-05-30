@@ -1351,7 +1351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:TLV70233_SOT23-5"
+		(symbol "Regulator_Linear:AP2112K-3.3"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1359,14 +1359,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -3.81 5.715 0)
+				(at -5.08 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TLV70233_SOT23-5"
+			(property "Value" "AP2112K-3.3"
 				(at 0 5.715 0)
 				(effects
 					(font
@@ -1380,13 +1381,12 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
-				(at 0 1.27 0)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1394,7 +1394,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
+			(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1403,7 +1403,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "300mA LDO Regulator Fixed Positive"
+			(property "ki_keywords" "linear regulator ldo fixed positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1412,7 +1412,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?23?5*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1421,7 +1421,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TLV70233_SOT23-5_0_1"
+			(symbol "AP2112K-3.3_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -1434,11 +1434,11 @@
 					)
 				)
 			)
-			(symbol "TLV70233_SOT23-5_1_1"
+			(symbol "AP2112K-3.3_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1511,7 +1511,7 @@
 				(pin power_out line
 					(at 7.62 2.54 180)
 					(length 2.54)
-					(name "OUT"
+					(name "VOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3017,13 +3017,23 @@
 	)
 	(text "arm switch"
 		(exclude_from_sim no)
-		(at 143.51 118.872 0)
+		(at 139.7 112.522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "3b6281ba-0300-489a-9fc7-306567bb0b24")
+	)
+	(text "apk2112?"
+		(exclude_from_sim no)
+		(at 94.996 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c2fb04b-ede1-4165-9499-332d44c56939")
 	)
 	(text "3.3v Power Switching"
 		(exclude_from_sim no)
@@ -3039,7 +3049,7 @@
 	)
 	(text "V_OUT"
 		(exclude_from_sim no)
-		(at 129.032 133.604 0)
+		(at 136.652 125.984 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3047,7 +3057,7 @@
 		)
 		(uuid "4a282cb2-f239-4910-90d0-e4202f03e4e9")
 	)
-	(text "INA226 Power Sensor\n"
+	(text "INA219 Power Sensor\n"
 		(exclude_from_sim no)
 		(at 38.1 23.114 0)
 		(effects
@@ -3061,7 +3071,7 @@
 	)
 	(text "xt30"
 		(exclude_from_sim no)
-		(at 142.748 154.686 0)
+		(at 138.43 151.638 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3090,6 +3100,18 @@
 			)
 		)
 		(uuid "b0463b13-7a97-47fb-814a-3538a5fbdf8b")
+	)
+	(text "USB 3.3v LDO"
+		(exclude_from_sim no)
+		(at 149.352 62.23 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "c92a3869-b0f8-4e69-b05d-483469b1dde6")
 	)
 	(text "High Precision 2mOhm Shunt"
 		(exclude_from_sim no)
@@ -3226,12 +3248,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdf687d9-62c0-4bef-ace7-0abbf56f80b5")
-	)
-	(junction
-		(at 157.48 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdf91c61-7ef9-424f-ae91-2aa71a394c5d")
 	)
 	(junction
 		(at 82.55 152.4)
@@ -3379,7 +3395,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 120.65) (xy 162.56 120.65)
+			(xy 152.4 114.3) (xy 158.75 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 120.65) (xy 162.56 119.38)
+			(xy 158.75 114.3) (xy 158.75 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3849,7 +3865,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 157.48 82.55)
+			(xy 149.86 82.55) (xy 163.83 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4169,16 +4185,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 74.93) (xy 157.48 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3ebd7df-73f4-40b8-b5d5-2b885dc88727")
-	)
-	(wire
-		(pts
 			(xy 209.55 128.27) (xy 209.55 129.54)
 		)
 		(stroke
@@ -4239,16 +4245,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 163.83 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb00c0bf-8332-4bd3-8e90-5a74d20f2805")
-	)
-	(wire
-		(pts
 			(xy 82.55 99.06) (xy 82.55 101.6)
 		)
 		(stroke
@@ -4276,16 +4272,6 @@
 			(type default)
 		)
 		(uuid "bea3aa35-39fc-4f8c-9376-ca751d1826b5")
-	)
-	(wire
-		(pts
-			(xy 157.48 74.93) (xy 157.48 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1a4b29d-0891-4f6c-b2d5-f5ede4befec5")
 	)
 	(wire
 		(pts
@@ -5119,84 +5105,6 @@
 			(project "M.I.A."
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
 					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:TLV70233_SOT23-5")
-		(at 149.86 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11bef09d-c3f9-43ef-9213-4f6c6a438338")
-		(property "Reference" "U17"
-			(at 149.86 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TLV70233_SOT23-5"
-			(at 149.86 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 149.86 66.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv702.pdf"
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 3.3V, SOT-23-5"
-			(at 149.86 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68135095-c034-4a35-8925-363891d3725d")
-		)
-		(pin "3"
-			(uuid "04a4d2b7-b107-4704-90f2-1477de0072ff")
-		)
-		(pin "4"
-			(uuid "698d92d9-7e63-4857-a8dd-1e5b6d19d748")
-		)
-		(pin "5"
-			(uuid "567be6de-1599-4d1e-a26b-b1a070ce04c7")
-		)
-		(pin "1"
-			(uuid "5ecababb-b720-4a62-a5df-aff907481eab")
-		)
-		(instances
-			(project ""
-				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
-					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -6681,7 +6589,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 134.62 0)
+		(at 147.32 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6690,7 +6598,7 @@
 		(fields_autoplaced yes)
 		(uuid "3df5cb1f-020c-4c4e-8d92-0b6c1d26dedf")
 		(property "Reference" "#PWR0132"
-			(at 139.7 140.97 0)
+			(at 147.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 139.7 0)
+			(at 147.32 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6615,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 134.62 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +6624,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 134.62 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6633,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 134.62 0)
+			(at 147.32 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7316,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 134.62 132.08 0)
+		(at 142.24 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7417,7 +7325,7 @@
 		(dnp no)
 		(uuid "619da41a-5f93-4893-b401-72bbc2223cea")
 		(property "Reference" "J18"
-			(at 154.432 137.922 0)
+			(at 162.052 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7333,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 153.67 134.62 0)
+			(at 161.29 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7433,7 +7341,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 134.62 132.08 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7442,7 +7350,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 132.08 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7359,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 132.08 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7950,7 +7858,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 162.56 119.38 0)
+		(at 158.75 113.03 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7959,7 +7867,7 @@
 		(dnp no)
 		(uuid "6c66f97a-a974-4e25-ab4e-a662813f5c54")
 		(property "Reference" "#PWR0117"
-			(at 162.56 123.19 0)
+			(at 158.75 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7968,7 +7876,7 @@
 			)
 		)
 		(property "Value" "V_IGN"
-			(at 162.56 116.586 0)
+			(at 158.75 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7976,7 +7884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 119.38 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7985,7 +7893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 119.38 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7994,7 +7902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 162.56 119.38 0)
+			(at 158.75 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8380,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 139.7 132.08 0)
+		(at 147.32 124.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8481,7 +8389,7 @@
 		(dnp no)
 		(uuid "80d60b26-a1a3-49f8-9836-b8399328f7f5")
 		(property "Reference" "#PWR0131"
-			(at 139.7 135.89 0)
+			(at 147.32 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8398,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 139.7 128.016 0)
+			(at 147.32 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8406,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 132.08 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8507,7 +8415,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 132.08 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8516,7 +8424,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 139.7 132.08 0)
+			(at 147.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9452,7 +9360,7 @@
 	)
 	(symbol
 		(lib_id "power:+8V")
-		(at 156.21 118.11 0)
+		(at 152.4 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9461,7 +9369,7 @@
 		(dnp no)
 		(uuid "a0267798-e6f8-43e1-8cfe-0c72c546880a")
 		(property "Reference" "#PWR0113"
-			(at 156.21 121.92 0)
+			(at 152.4 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,7 +9378,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 156.21 114.046 0)
+			(at 152.4 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9478,7 +9386,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 118.11 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9487,7 +9395,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 118.11 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9496,7 +9404,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+8V\""
-			(at 156.21 118.11 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +9956,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 151.13 118.11 0)
+		(at 147.32 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10057,7 +9965,7 @@
 		(dnp no)
 		(uuid "ad8acd17-eda0-4e14-98e4-70d0e18db6f9")
 		(property "Reference" "J14"
-			(at 142.494 115.062 0)
+			(at 138.684 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10065,7 +9973,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 141.732 111.76 0)
+			(at 137.922 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +9981,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 151.13 118.11 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +9990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 118.11 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10091,7 +9999,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 151.13 118.11 0)
+			(at 147.32 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11808,6 +11716,83 @@
 			(project "M.I.A."
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2112K-3.3")
+		(at 149.86 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcfde743-2aee-47a8-8287-ecff21ae9427")
+		(property "Reference" "U10"
+			(at 149.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3"
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 149.86 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+			(at 149.86 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38ad9a9c-ca1b-4f3c-b3e8-ef77be946cd0")
+		)
+		(pin "2"
+			(uuid "30bca3b7-93e4-4072-8e4f-4ac4ede405ee")
+		)
+		(pin "4"
+			(uuid "50951222-b1da-4e2c-b1df-bcb16fd51819")
+		)
+		(pin "3"
+			(uuid "ccd82249-78af-4e36-9fc2-dac6040ccb29")
+		)
+		(pin "5"
+			(uuid "e665b4e3-7baa-474d-9012-7b0d494b712a")
+		)
+		(instances
+			(project ""
+				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
+					(reference "U10")
 					(unit 1)
 				)
 			)
