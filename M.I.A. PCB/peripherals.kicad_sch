@@ -4249,7 +4249,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 148.59) (xy 223.52 148.59)
+			(xy 251.46 119.38) (xy 261.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4499,7 +4499,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 147.32) (xy 262.89 147.32)
+			(xy 250.19 138.43) (xy 261.62 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5145,7 +5145,7 @@
 	)
 	(global_label "SDA2"
 		(shape bidirectional)
-		(at 262.89 144.78 180)
+		(at 261.62 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5155,7 +5155,7 @@
 		)
 		(uuid "08849681-7e40-4a20-8228-a43857c496de")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.0159 144.78 0)
+			(at 252.7459 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +5255,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 223.52 146.05 180)
+		(at 261.62 116.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5265,7 +5265,7 @@
 		)
 		(uuid "3e3dfcf2-a276-4e19-9f49-364bd59d9b43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8554 146.05 0)
+			(at 253.9554 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5277,7 @@
 	)
 	(global_label "SCL2"
 		(shape input)
-		(at 262.89 142.24 180)
+		(at 261.62 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5287,7 +5287,7 @@
 		)
 		(uuid "49668d7c-9b7f-4ee4-9e32-ce05e9cde131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.1877 142.24 0)
+			(at 253.9177 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5585,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 223.52 143.51 180)
+		(at 261.62 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5595,7 +5595,7 @@
 		)
 		(uuid "cc940c99-d2a0-4f62-a857-58b270db164a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.0272 143.51 0)
+			(at 255.1272 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5761,7 +5761,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 236.22 134.62 0)
+		(at 228.6 133.35 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5770,7 +5770,7 @@
 		(dnp no)
 		(uuid "0287e05d-3089-4778-a7bd-7a562b62766f")
 		(property "Reference" "J20"
-			(at 230.378 133.096 0)
+			(at 222.758 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,15 +5778,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 227.33 131.064 0)
+			(at 219.71 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 236.22 134.62 0)
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5795,7 +5795,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 134.62 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5804,7 +5804,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 134.62 0)
+			(at 228.6 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,7 +6479,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 137.16 0)
+		(at 233.68 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6488,7 +6488,7 @@
 		(fields_autoplaced yes)
 		(uuid "074a911d-5609-4f63-8e6a-aaf69e11bfee")
 		(property "Reference" "#PWR0136"
-			(at 241.3 143.51 0)
+			(at 233.68 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +6497,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 142.24 0)
+			(at 233.68 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 137.16 0)
+			(at 233.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 137.16 0)
+			(at 233.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 137.16 0)
+			(at 233.68 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,16 +6808,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 267.97 144.78 0)
+		(at 266.7 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1eb73634-33c0-4951-a873-acd2ed5bb159")
 		(property "Reference" "J22"
-			(at 269.24 144.7799 0)
+			(at 267.462 132.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6825,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 269.24 147.3199 0)
+			(at 247.904 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,7 +6834,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 267.97 144.78 0)
+			(at 266.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6844,7 +6843,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.97 144.78 0)
+			(at 266.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6853,7 +6852,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 267.97 144.78 0)
+			(at 266.7 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,6 +7128,81 @@
 			(project "M.I.A."
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348/e00a3c08-9b0c-4c55-ba07-ab188e60e59b"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 266.7 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25cbbe0a-85e7-4fb7-8a9b-efcca9f93bd3")
+		(property "Reference" "J23"
+			(at 267.462 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04_Socket"
+			(at 247.904 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
+			(at 266.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 266.7 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d677db7-0c79-410e-aee2-a29d4fab2595")
+		)
+		(pin "4"
+			(uuid "ee63d4e5-e19d-4e1a-87a5-ec31aa63794b")
+		)
+		(pin "2"
+			(uuid "95c83f56-513e-4c5d-8016-3b5da7a99de8")
+		)
+		(pin "3"
+			(uuid "d954a50d-84af-4c8e-a449-765f8f502f3f")
+		)
+		(instances
+			(project "M.I.A."
+				(path "/4d55825e-4251-44bf-9376-9abd9228f348/e00a3c08-9b0c-4c55-ba07-ab188e60e59b"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -7591,16 +7665,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 228.6 146.05 0)
+		(at 266.7 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "36a02b45-2cca-49fe-b0b6-67b4c11edc06")
 		(property "Reference" "J21"
-			(at 229.87 146.0499 0)
+			(at 267.208 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7682,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Socket"
-			(at 229.87 148.5899 0)
+			(at 248.92 110.744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7691,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical"
-			(at 228.6 146.05 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7627,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 146.05 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7636,7 +7709,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 228.6 146.05 0)
+			(at 266.7 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
 			(at 107.95 161.29 0)
 			(effects
 				(font
@@ -9161,7 +9234,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 213.36 148.59 0)
+		(at 251.46 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9170,7 +9243,7 @@
 		(dnp no)
 		(uuid "5b2395d7-8c14-4530-b8b5-dc13d0f810a9")
 		(property "Reference" "#PWR0138"
-			(at 213.36 152.4 0)
+			(at 251.46 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9179,7 +9252,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 213.36 143.51 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9187,7 +9260,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 148.59 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9196,7 +9269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 148.59 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,7 +9278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 148.59 0)
+			(at 251.46 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9846,7 +9919,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 236.22 119.38 180)
+		(at 228.6 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9854,7 +9927,7 @@
 		(dnp no)
 		(uuid "6b48b5fe-d9cb-4077-83de-4f8b62f07174")
 		(property "Reference" "J12"
-			(at 231.648 116.84 0)
+			(at 224.028 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,15 +9935,15 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 227.838 114.046 0)
+			(at 220.218 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
-			(at 236.22 119.38 0)
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
+			(at 228.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9879,7 +9952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 119.38 0)
+			(at 228.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9888,7 +9961,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 236.22 119.38 0)
+			(at 228.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9913,7 +9986,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 149.86 0)
+		(at 261.62 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9922,7 +9995,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c892d81-5501-4222-8fa8-c7f736f8f1ba")
 		(property "Reference" "#PWR0140"
-			(at 262.89 156.21 0)
+			(at 261.62 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9931,7 +10004,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 154.94 0)
+			(at 261.62 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9939,7 +10012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 149.86 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9948,7 +10021,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 149.86 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +10030,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 149.86 0)
+			(at 261.62 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10840,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 251.46 147.32 0)
+		(at 250.19 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10776,7 +10849,7 @@
 		(dnp no)
 		(uuid "90b7a346-eb27-414d-8ee9-e45ca82460f7")
 		(property "Reference" "#PWR0139"
-			(at 251.46 151.13 0)
+			(at 250.19 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,7 +10858,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 251.46 142.24 0)
+			(at 250.19 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10793,7 +10866,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 147.32 0)
+			(at 250.19 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10802,7 +10875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 147.32 0)
+			(at 250.19 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10811,7 +10884,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 251.46 147.32 0)
+			(at 250.19 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11443,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
 			(at 41.91 161.29 0)
 			(effects
 				(font
@@ -11675,7 +11748,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 241.3 116.84 0)
+		(at 233.68 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11684,7 +11757,7 @@
 		(fields_autoplaced yes)
 		(uuid "acb8abd1-dba0-430b-be4f-7d9309fee80a")
 		(property "Reference" "#PWR0111"
-			(at 241.3 120.65 0)
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11693,7 +11766,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 241.3 111.76 0)
+			(at 233.68 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11701,7 +11774,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 116.84 0)
+			(at 233.68 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11710,7 +11783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 116.84 0)
+			(at 233.68 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11719,7 +11792,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 241.3 116.84 0)
+			(at 233.68 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,7 +12399,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 241.3 119.38 0)
+		(at 233.68 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12335,7 +12408,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd565566-1b3b-4814-a09c-4738256bdcdc")
 		(property "Reference" "#PWR0135"
-			(at 241.3 125.73 0)
+			(at 233.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12344,7 +12417,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 241.3 124.46 0)
+			(at 233.68 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12352,7 +12425,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 119.38 0)
+			(at 233.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12361,7 +12434,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 119.38 0)
+			(at 233.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12370,7 +12443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 119.38 0)
+			(at 233.68 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
 			(at 41.91 127 0)
 			(effects
 				(font
@@ -13027,7 +13100,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 241.3 134.62 0)
+		(at 233.68 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13036,7 +13109,7 @@
 		(fields_autoplaced yes)
 		(uuid "d33085f6-6ec4-48b8-9cd8-f31e861eeb28")
 		(property "Reference" "#PWR0134"
-			(at 241.3 138.43 0)
+			(at 233.68 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13045,7 +13118,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 241.3 129.54 0)
+			(at 233.68 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13053,7 +13126,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 134.62 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13062,7 +13135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 134.62 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13071,7 +13144,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 241.3 134.62 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14138,7 +14211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 223.52 151.13 0)
+		(at 261.62 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14147,7 +14220,7 @@
 		(fields_autoplaced yes)
 		(uuid "eff7d0f0-6da3-4759-aab0-948de15d1d61")
 		(property "Reference" "#PWR0137"
-			(at 223.52 157.48 0)
+			(at 261.62 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14156,7 +14229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 156.21 0)
+			(at 261.62 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14164,7 +14237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 223.52 151.13 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14173,7 +14246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 151.13 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,7 +14255,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 223.52 151.13 0)
+			(at 261.62 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14227,7 +14300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
+		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
 			(at 107.95 127 0)
 			(effects
 				(font
