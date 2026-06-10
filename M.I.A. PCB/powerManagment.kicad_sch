@@ -3025,16 +3025,6 @@
 		)
 		(uuid "3b6281ba-0300-489a-9fc7-306567bb0b24")
 	)
-	(text "apk2112?"
-		(exclude_from_sim no)
-		(at 94.996 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "3c2fb04b-ede1-4165-9499-332d44c56939")
-	)
 	(text "3.3v Power Switching"
 		(exclude_from_sim no)
 		(at 207.01 25.4 0)
