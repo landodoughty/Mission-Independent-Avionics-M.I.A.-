@@ -358,113 +358,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3156,12 +3049,6 @@
 		(uuid "24dd42a8-550f-4078-b221-8861bebfc31a")
 	)
 	(junction
-		(at 262.89 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "312c03f4-7e44-4ac8-a631-0f6e98fcda06")
-	)
-	(junction
 		(at 149.86 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3196,12 +3083,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b6bd6b0-4d79-4779-b2ef-6dc9d28cb856")
-	)
-	(junction
-		(at 259.08 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8907c0d0-d6db-4901-988d-3ef4fd132250")
 	)
 	(junction
 		(at 35.56 104.14)
@@ -3365,16 +3246,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 43.18) (xy 267.97 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ba8784d-c494-49bd-98e4-4955740e23a0")
-	)
-	(wire
-		(pts
 			(xy 59.69 68.58) (xy 59.69 74.93)
 		)
 		(stroke
@@ -3405,7 +3276,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 114.3) (xy 271.78 114.3)
+			(xy 256.54 114.3) (xy 271.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3895,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 43.18) (xy 259.08 43.18)
+			(xy 252.73 43.18) (xy 267.97 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4122,16 +3993,6 @@
 			(type default)
 		)
 		(uuid "a539f534-2626-4d8b-8443-570fa2123fd8")
-	)
-	(wire
-		(pts
-			(xy 256.54 114.3) (xy 262.89 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b4780c-beec-4bd2-b4d4-06390500d991")
 	)
 	(wire
 		(pts
@@ -8690,99 +8551,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 262.89 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c53ad99-bf05-4113-90a1-1ea36cf7ff88")
-		(property "Reference" "3v2"
-			(at 261.112 105.918 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 261.112 108.458 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 267.97 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 267.97 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 262.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 262.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 262.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 262.89 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6466f851-7538-43f1-ab14-b1a43a5dc944")
-		)
-		(instances
-			(project "M.I.A."
-				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
-					(reference "3v2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 227.33 48.26 0)
 		(unit 1)
@@ -11783,99 +11551,6 @@
 			(project ""
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
 					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 259.08 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ddaccf7e-7c1c-4815-92a3-0406e7728a0a")
-		(property "Reference" "3v1"
-			(at 257.302 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 257.302 37.338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 264.16 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 259.08 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "969f3d2c-519b-4057-bede-29fbfa78aa1b")
-		)
-		(instances
-			(project "M.I.A."
-				(path "/4d55825e-4251-44bf-9376-9abd9228f348/54343a2d-63f4-495d-8740-a310821afec1"
-					(reference "3v1")
 					(unit 1)
 				)
 			)

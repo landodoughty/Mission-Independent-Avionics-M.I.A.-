@@ -5,113 +5,6 @@
 	(uuid "4d55825e-4251-44bf-9376-9abd9228f348")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -4538,12 +4431,6 @@
 		(uuid "e798f919-ec90-466f-a336-445e55256e6b")
 	)
 	(junction
-		(at 34.29 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "edd2c8b2-bf71-437b-aff0-e30a2288168f")
-	)
-	(junction
 		(at 83.82 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4725,7 +4612,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 36.83) (xy 29.21 36.83)
+			(xy 29.21 36.83) (xy 38.1 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5132,16 +5019,6 @@
 			(type default)
 		)
 		(uuid "553f8f50-3808-419c-9ff9-9090ddeb2b41")
-	)
-	(wire
-		(pts
-			(xy 38.1 36.83) (xy 34.29 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577c9126-b53e-45fa-8dcf-947707e6e5ce")
 	)
 	(wire
 		(pts
@@ -6617,7 +6494,7 @@
 	)
 	(global_label "IGN_3"
 		(shape output)
-		(at 166.37 62.23 0)
+		(at 166.37 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6627,7 +6504,7 @@
 		)
 		(uuid "4a32c0dc-2eb1-4fde-9254-4605a53ac3a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7376 62.23 0)
+			(at 174.7376 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6903,7 +6780,7 @@
 	)
 	(global_label "IGN_2"
 		(shape output)
-		(at 166.37 133.35 0)
+		(at 166.37 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6913,7 +6790,7 @@
 		)
 		(uuid "887b8abc-8065-482c-aa2d-b7a70dc9320b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7376 133.35 0)
+			(at 174.7376 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7057,7 +6934,7 @@
 	)
 	(global_label "IGN_1"
 		(shape output)
-		(at 166.37 135.89 0)
+		(at 166.37 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7067,7 +6944,7 @@
 		)
 		(uuid "9f21436e-19e3-45f7-8d70-f3dd6917c0c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7376 135.89 0)
+			(at 174.7376 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7255,7 +7132,7 @@
 	)
 	(global_label "IGN_4"
 		(shape output)
-		(at 166.37 59.69 0)
+		(at 166.37 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7265,7 +7142,7 @@
 		)
 		(uuid "d22a6d85-5f84-4eff-a16b-8ea8caadb367")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7376 59.69 0)
+			(at 174.7376 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14411,99 +14288,6 @@
 			(project "M.I.A."
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 34.29 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1f98852-0c20-46df-861e-e676a720113c")
-		(property "Reference" "1.1V1"
-			(at 35.052 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 35.052 34.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 39.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" ""
-			(at 34.29 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "003043aa-641a-442e-86fb-da03b3b07d37")
-		)
-		(instances
-			(project "M.I.A."
-				(path "/4d55825e-4251-44bf-9376-9abd9228f348"
-					(reference "1.1V1")
 					(unit 1)
 				)
 			)
