@@ -7167,8 +7167,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 142.24 124.46 0)
-		(mirror y)
+		(at 142.24 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7176,7 +7175,7 @@
 		(dnp no)
 		(uuid "619da41a-5f93-4893-b401-72bbc2223cea")
 		(property "Reference" "J18"
-			(at 162.052 130.302 0)
+			(at 162.052 121.158 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7183,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 161.29 127 0)
+			(at 161.29 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7192,7 +7191,7 @@
 			)
 		)
 		(property "Footprint" "PCM_SparkFun-Connector:ScrewTerminal_1x02_P3.5mm_Horizontal_Black"
-			(at 142.24 124.46 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7200,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 124.46 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7210,7 +7209,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 124.46 0)
+			(at 142.24 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
