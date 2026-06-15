@@ -6853,7 +6853,7 @@
 	)
 	(global_label "Cont_Sense3"
 		(shape output)
-		(at 166.37 156.21 0)
+		(at 166.37 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6863,7 +6863,7 @@
 		)
 		(uuid "77410659-90b9-4676-a058-e7fe6cca2946")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3898 156.21 0)
+			(at 181.3898 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7073,7 +7073,7 @@
 	)
 	(global_label "Cont_Sense4"
 		(shape output)
-		(at 166.37 153.67 0)
+		(at 166.37 156.21 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7083,7 +7083,7 @@
 		)
 		(uuid "9b7c6900-0909-4488-9b8c-c4ca2a300627")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.3898 153.67 0)
+			(at 181.3898 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
