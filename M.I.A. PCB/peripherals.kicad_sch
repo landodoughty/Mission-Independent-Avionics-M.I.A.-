@@ -5646,7 +5646,7 @@
 	)
 	(global_label "SPI_SCK_TLM"
 		(shape input)
-		(at 313.69 130.81 180)
+		(at 313.69 135.89 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5656,7 +5656,7 @@
 		)
 		(uuid "1ce49ead-c53b-4c0a-8f38-418656d983c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 298.4887 130.81 0)
+			(at 299.7587 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5734,7 @@
 	)
 	(global_label "SPI_MISO_TLM"
 		(shape output)
-		(at 313.69 133.35 180)
+		(at 313.69 140.97 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5744,7 +5744,7 @@
 		)
 		(uuid "342e462d-86c1-45ba-ad57-f509557e4441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.642 133.35 0)
+			(at 297.642 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5800,7 +5800,7 @@
 	)
 	(global_label "SPI_MOSI_TLM"
 		(shape input)
-		(at 313.69 135.89 180)
+		(at 313.69 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5810,7 +5810,7 @@
 		)
 		(uuid "4153e4e0-5faa-4088-a8b8-659b1abf2e7a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.642 135.89 0)
+			(at 302.843 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5932,7 +5932,7 @@
 	)
 	(global_label "RST_TLM"
 		(shape input)
-		(at 313.69 140.97 180)
+		(at 313.69 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5942,7 +5942,7 @@
 		)
 		(uuid "5b401f0b-6397-4b1a-9af2-2c93a1de2240")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 302.843 140.97 0)
+			(at 298.4887 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6382,7 +6382,7 @@
 		)
 		(uuid "c6a6c43f-c3d5-42b3-8c81-baabb1f28b2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 299.7587 138.43 0)
+			(at 297.642 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)

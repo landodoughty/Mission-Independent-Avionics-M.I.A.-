@@ -7594,7 +7594,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "27"
 			(at 184.15 37.084 90)
 			(effects
 				(font
@@ -19152,7 +19152,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "27"
 			(at 184.15 46.736 90)
 			(effects
 				(font
