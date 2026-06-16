@@ -4211,14 +4211,14 @@
 		)
 		(uuid "55820249-93bd-42d6-89ed-fa0cf9910ee8")
 	)
-	(text "MicroSD Card,\nServo Connectors,\nTelemetry Radio\n\n"
+	(text "MicroSD Card,\nServo Connectors,\nTelemetry Radio,\nIgnition lines,\nRGB LEDs,\nOther Connectors\n\n"
 		(exclude_from_sim no)
-		(at 233.172 132.842 0)
+		(at 232.664 126.746 0)
 		(effects
 			(font
 				(size 1.905 1.905)
 			)
-			(justify left)
+			(justify left top)
 		)
 		(uuid "68cd497d-6966-4389-9cf7-9db33d7a9708")
 	)
@@ -4244,9 +4244,9 @@
 		)
 		(uuid "879130d4-e9ea-4905-9b4b-95201afba5fd")
 	)
-	(text "ICM42688-PC IMU\nMMC5983MA Magnetometer\nKX134 High-G Accelerometer\nMS5611 Barometer\n"
+	(text "ICM42688-PC IMU\nMMC5983MA Magnetometer\nKX134 High-G Accelerometer\nMS5611 Barometer\nTMP117 Temperature Sensor\nMAX-M10S GPS"
 		(exclude_from_sim no)
-		(at 233.172 91.186 0)
+		(at 232.918 93.98 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -4286,6 +4286,17 @@
 			)
 		)
 		(uuid "9cd70254-4fb3-4230-aa6a-9ad564a361fd")
+	)
+	(text "INA219 Power Sensor,\nAP62150 Switching Regulators,\nAP212K Linear Regulator\nTPS2121 Power OR"
+		(exclude_from_sim no)
+		(at 233.172 49.022 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+			(justify left)
+		)
+		(uuid "ce9eed3a-0994-4084-9d1c-5e5a59b05ae1")
 	)
 	(text "CLK\n"
 		(exclude_from_sim no)

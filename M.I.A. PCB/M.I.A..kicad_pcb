@@ -38814,6 +38814,7 @@
 		(property "Reference" "F1"
 			(at 0 1.635 0)
 			(layer "B.SilkS")
+			(hide yes)
 			(uuid "959a69b7-9e86-4a2b-8c8e-4c3cd7589f62")
 			(effects
 				(font
@@ -65789,6 +65790,46 @@
 			)
 		)
 	)
+	(gr_line
+		(start 59.4 78.175)
+		(end 59.4 78.525)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "1c2dc6cd-87ec-4e3e-9bc7-9e050a3f5064")
+	)
+	(gr_line
+		(start 41.35 94.15)
+		(end 41.35 94.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "32c0db10-df4d-477d-a0da-3f31e1454db2")
+	)
+	(gr_line
+		(start 51.45 93.9)
+		(end 51.45 94.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "656f4f35-a207-454e-a8c3-2a45cc7826e0")
+	)
+	(gr_line
+		(start 59.3 86.9)
+		(end 59.3 87.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "f5c7f3d4-8500-4d12-bba3-af671092cd8a")
+	)
 	(gr_arc
 		(start 20 18)
 		(mid 20.87868 15.87868)
@@ -66966,6 +67007,102 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "3V3"
+		(at 52.95 30.1 0)
+		(layer "B.SilkS")
+		(uuid "04366e9e-d2c4-463a-a1f8-799ff6ffdb26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Batt 5V"
+		(at 44.7 94 0)
+		(layer "B.SilkS")
+		(uuid "2d8c16f7-4292-402a-b808-a7fdbfc0d032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Batt 3V3"
+		(at 54.8 93.75 0)
+		(layer "B.SilkS")
+		(uuid "361b5200-0e98-4e4f-90aa-acf89dfe2983")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5V"
+		(at 59.05 30.15 0)
+		(layer "B.SilkS")
+		(uuid "af3f1481-a1c1-4349-b2de-2c9f43ad0b99")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SRC 5V"
+		(at 43.35 81.85 0)
+		(layer "B.SilkS")
+		(uuid "b17ce8d2-836f-4c3d-83e0-c5b635d667e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "USB 3V3"
+		(at 62.8 88.6 0)
+		(layer "B.SilkS")
+		(uuid "b43affa6-ddb6-4749-871e-91bcd9ccdc4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SRC 3V3"
+		(at 58.55 81.8 0)
+		(layer "B.SilkS")
+		(uuid "b83eee6f-7399-4ede-922a-ec5eb2f20f47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "USB 5V"
+		(at 62.9 78.15 0)
+		(layer "B.SilkS")
+		(uuid "cab26ce3-4e8d-4d0e-a315-37bba0bf0e03")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "SIG,\nPWR (BATT, IGN, 3V, 5V)\nGND +sig if neccesary\nSIG"
