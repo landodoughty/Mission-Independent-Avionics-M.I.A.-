@@ -7,11 +7,15 @@
 "C32, C33",0805,2,1u,C15850
 "C35, C39",0805,2,22u,C45783
 C43,0805,1,10u,
+"C44, C45",C_Radial_D5.0mm_H11.0mm_P2.00mm,2,100u,C15850
+"C46, C47, C48, C49",0603,4,100n,C15850
 "D1, D2, D3, D4, D5",0805,5,RED_LED,C84256
 "D10, D11",LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,2,WS2812B,
 "D6, D7, D8, D9",D_SOD-123F,4,BZT52Bxx,
 "F1, F2, F3, F4",ERBRE3R00V,4,ERBRE3R00V,C713406
 FB1,0805,1,120ohm,
+"G1, G2",3x4PinHeaderCase90deg,2,3x4PinHeaderCase90deg,
+G3,orientationIndicator,1,orientationIndicator,
 "H1, H2, H3, H4",MountingHole_3.2mm_M3_ISO14580_Pad,4,MountingHole,
 J1,USB_C_Receptacle_HRO_TYPE-C-31-M-12,1,USB_C_Receptacle_USB2.0_16P,
 "J10, J11, J14, J15, J16, J17, J7, J8",PinHeader_1x03_P2.54mm_Vertical,8,Conn_01x03,
