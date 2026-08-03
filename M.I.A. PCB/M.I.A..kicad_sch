@@ -7605,7 +7605,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "33"
 			(at 184.15 37.084 90)
 			(effects
 				(font
@@ -9489,7 +9489,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 208.28 128.2699 0)
 			(effects
 				(font
@@ -11972,7 +11972,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.1k"
 			(at 218.44 128.2699 0)
 			(effects
 				(font
@@ -13053,7 +13053,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "330"
 			(at 215.9 107.95 90)
 			(effects
 				(font
@@ -19163,7 +19163,7 @@
 				)
 			)
 		)
-		(property "Value" "27"
+		(property "Value" "33"
 			(at 184.15 46.736 90)
 			(effects
 				(font

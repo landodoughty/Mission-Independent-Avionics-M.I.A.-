@@ -6029,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "330"
 			(at 270.51 121.92 90)
 			(effects
 				(font
@@ -6217,7 +6217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 202.438 61.976 0)
 			(effects
 				(font
@@ -9406,7 +9406,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47K"
+		(property "Value" "47k"
 			(at 206.248 133.096 0)
 			(effects
 				(font
