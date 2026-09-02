@@ -4047,6 +4047,12 @@
 		(uuid "1f75aba2-4835-4362-8be9-456ca2c9fba0")
 	)
 	(junction
+		(at 38.1 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21b0e0c6-0d11-4b9a-be49-bc2e9943064b")
+	)
+	(junction
 		(at 186.69 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4207,6 +4213,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc55604e-7d62-492e-8c07-03a7d9e75ae5")
+	)
+	(no_connect
+		(at 279.4 41.91)
+		(uuid "e287bdc3-d3f1-4c54-a928-4f0640cfd3ed")
 	)
 	(wire
 		(pts
@@ -5317,6 +5327,16 @@
 			(type default)
 		)
 		(uuid "cab0834f-4581-4802-825b-88079a77e9b3")
+	)
+	(wire
+		(pts
+			(xy 44.45 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cacdcd34-09f0-426d-8b1d-1832e7179366")
 	)
 	(wire
 		(pts
@@ -10374,7 +10394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52Bxx"
+		(property "Value" "BZT52C6V2"
 			(at 92.71 142.2399 90)
 			(effects
 				(font
@@ -12102,6 +12122,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 48.26 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "680acb66-7ca8-448e-b6e4-f8e117a977fd")
+		(property "Reference" "C51"
+			(at 48.26 17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 48.26 20.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 52.07 24.4348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" ""
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "609c031e-abc4-4538-ad98-b6f1c3e4e322")
+		)
+		(pin "1"
+			(uuid "1d2de79f-3abe-4c67-9797-9c9ba8cb1beb")
+		)
+		(instances
+			(project "M.I.A."
+				(path "/4d55825e-4251-44bf-9376-9abd9228f348/e00a3c08-9b0c-4c55-ba07-ab188e60e59b"
+					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 140.97 0)
 		(unit 1)
@@ -12120,7 +12262,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 59.69 142.2399 0)
 			(effects
 				(font
@@ -13348,7 +13490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52Bxx"
+		(property "Value" "BZT52C6V2"
 			(at 92.71 176.5299 90)
 			(effects
 				(font
@@ -13559,7 +13701,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "50k"
 			(at 118.11 132.0799 0)
 			(effects
 				(font
@@ -14361,7 +14503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "50k"
 			(at 118.11 166.3699 0)
 			(effects
 				(font
@@ -15289,7 +15431,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52Bxx"
+		(property "Value" "BZT52C6V2"
 			(at 34.29 176.5299 90)
 			(effects
 				(font
@@ -15609,7 +15751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 59.69 176.5299 0)
 			(effects
 				(font
@@ -16400,7 +16542,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BZT52Bxx"
+		(property "Value" "BZT52C6V2"
 			(at 34.29 142.2399 90)
 			(effects
 				(font
@@ -16659,10 +16801,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cbebf8b6-6955-495d-a947-07dfdab38688")
 		(property "Reference" "U15"
-			(at 40.2433 25.4 0)
+			(at 24.13 24.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16670,8 +16811,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74AHC541"
-			(at 40.2433 27.94 0)
+		(property "Value" "74AHCT541"
+			(at 24.13 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16821,7 +16962,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 118.11 176.5299 0)
 			(effects
 				(font
@@ -16957,7 +17098,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "50k"
 			(at 59.69 166.3699 0)
 			(effects
 				(font
@@ -17548,7 +17689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 118.11 142.2399 0)
 			(effects
 				(font
@@ -17684,7 +17825,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "50k"
 			(at 59.69 132.0799 0)
 			(effects
 				(font
@@ -18884,6 +19025,71 @@
 			(project ""
 				(path "/4d55825e-4251-44bf-9376-9abd9228f348/e00a3c08-9b0c-4c55-ba07-ab188e60e59b"
 					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5ac7dbd-da7c-4092-9263-fa3f52a197ed")
+		(property "Reference" "#PWR0191"
+			(at 52.07 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8176a365-935e-43aa-8076-0cd7a150ad61")
+		)
+		(instances
+			(project "M.I.A."
+				(path "/4d55825e-4251-44bf-9376-9abd9228f348/e00a3c08-9b0c-4c55-ba07-ab188e60e59b"
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
